@@ -1,6 +1,6 @@
 # ESDP-FinalProject
 
-This repository processes IAGOS flight data (air temperature and relative humidity) from 1996 to 2022. NETCDF file for each month are combined into a single file, then preprocessing and quantile regression analysis is performed on the data in this file.
+This repository processes IAGOS (www.iagos.org) flight data (air temperature and relative humidity) from 1996 to 2022. NETCDF file for each month are combined into a single file, then preprocessing and quantile regression analysis is performed on the data in this file.
 
 ## src
   CombineData.ipynb - Combines monthly IAGOS NETCDF files from 1996 to 2022, selects columns of interests and saves dataframe as a python pickle file.
